@@ -1,0 +1,121 @@
+condition_key,condition_name,reference_condition,metric,metric_label,n_pairs,reference_mean,condition_mean,mean_diff,t_stat,t_p_value,t_significant_p05,wilcoxon_w,wilcoxon_z,wilcoxon_p_value,wilcoxon_significant_p05,cohens_d_pooled,cohens_d_paired,effect_magnitude
+capability_limited,Capability-limited,Reference,task_success_rate,Task Success Rate,18,0.2778,0.0556,-0.2222,-2.2039,0.041605,True,0.0,-1.5341,0.125,False,-0.6071,-0.5195,medium
+capability_limited,Capability-limited,Reference,dag_progress_pct,DAG Completion (%),18,64.2333,45.05,-19.1833,-3.819,0.001373,True,12.0,-2.8713,0.004088,True,-0.6485,-0.9001,medium
+capability_limited,Capability-limited,Reference,makespan,Makespan (s),18,42.1667,45.0,2.8333,2.0678,0.054225,False,0.0,1.8627,0.0625,False,0.6893,0.4874,medium
+capability_limited,Capability-limited,Reference,valid_action_rate,Valid Action Rate,18,0.761,0.7889,0.0279,1.9102,0.073126,False,37.0,2.1173,0.034233,True,0.5448,0.4502,medium
+capability_limited,Capability-limited,Reference,constraint_violation_rate,Constraint Violation Rate,18,0.239,0.2111,-0.0279,-1.9102,0.073126,False,37.0,-2.1173,0.034233,True,-0.5448,-0.4502,medium
+capability_limited,Capability-limited,Reference,total_actions,Total Actions,18,85.7778,90.6111,4.8333,1.2364,0.233133,False,60.5,1.0679,0.285579,False,0.3173,0.2914,small
+capability_limited,Capability-limited,Reference,total_movements,Total Movements,18,27.6111,25.1111,-2.5,-1.4721,0.15926,False,40.0,-1.7066,0.087903,False,-0.3927,-0.347,small
+capability_limited,Capability-limited,Reference,idle_timesteps,Idle Timesteps (s),18,54.1667,61.2778,7.1111,2.0961,0.051343,False,45.0,1.7462,0.080783,False,0.5729,0.4941,medium
+capability_limited,Capability-limited,Reference,resource_conflicts,Resource Conflicts,18,3.9444,1.2778,-2.6667,-4.6188,0.000245,True,10.5,-3.1164,0.001831,True,-1.6523,-1.0887,large
+capability_limited,Capability-limited,Reference,dependency_errors,Dependency Errors,18,10.1667,5.7778,-4.3889,-4.1992,0.000603,True,10.0,-3.1314,0.00174,True,-1.607,-0.9897,large
+capability_limited,Capability-limited,Reference,replanning_frequency,Replanning Frequency,18,11.2222,8.0,-3.2222,-2.8357,0.011414,True,19.5,-2.4933,0.012656,True,-0.9113,-0.6684,large
+capability_limited,Capability-limited,Reference,recovery_rate,Post-Failure Recovery Rate,18,1.0,1.0,0.0,0.0,1.0,False,0.0,0.0,1.0,False,0.0,0.0,negligible
+capability_limited,Capability-limited,Reference,workload_gini,Workload Gini Coefficient,18,0.1057,0.1729,0.0673,4.5294,0.000297,True,3.0,3.5715,0.000355,True,1.2813,1.0676,large
+capability_limited,Capability-limited,Reference,number_of_messages,Number of Peer Messages,18,34.7222,39.7778,5.0556,2.1343,0.047679,True,42.5,1.5878,0.112325,False,0.5037,0.5031,medium
+capability_limited,Capability-limited,Reference,total_communication_tokens,Total Comm Tokens,18,1126.5,1255.5556,129.0556,1.3231,0.203312,False,72.0,0.5536,0.579842,False,0.3782,0.3119,small
+capability_limited,Capability-limited,Reference,average_message_length_tokens,Avg Message Length (Tokens),18,32.6878,31.54,-1.1478,-0.9736,0.343922,False,61.0,-1.0283,0.303795,False,-0.319,-0.2295,small
+capability_limited,Capability-limited,Reference,grounded_message_rate,Grounded Message Rate,18,0.9989,0.9963,-0.0027,-1.1202,0.278195,False,1.0,-1.1503,0.25,False,-0.3896,-0.264,small
+capability_limited,Capability-limited,Reference,redundant_message_rate,Redundant Message Rate,18,0.0068,0.0482,0.0413,2.2782,0.035916,True,8.5,2.4788,0.013184,True,0.7287,0.537,medium
+capability_limited,Capability-limited,Reference,judge_relevance,LLM Judge Relevance (1-5),18,4.2222,3.6667,-0.5556,-3.0071,0.007934,True,13.0,-2.3352,0.019531,True,-0.8946,-0.7088,large
+capability_limited,Capability-limited,Reference,judge_clarity,LLM Judge Clarity (1-5),18,4.5,4.0556,-0.4444,-3.6878,0.001825,True,0.0,-2.6601,0.007812,True,-1.1107,-0.8692,large
+capability_limited,Capability-limited,Reference,judge_grounding,LLM Judge Grounding (1-5),18,3.5556,3.1667,-0.3889,-1.2363,0.233156,False,36.0,-1.064,0.287324,False,-0.4076,-0.2914,small
+capability_limited,Capability-limited,Reference,judge_coordination_utility,LLM Judge Coordination Utility (1-5),18,3.2778,2.9444,-0.3333,-1.4577,0.163139,False,22.0,-1.2838,0.199219,False,-0.5095,-0.3436,medium
+capability_limited,Capability-limited,Reference,judge_redundancy,LLM Judge Non-Redundancy (1-5),18,2.1111,1.1667,-0.9444,-4.2736,0.000513,True,0.0,-3.4873,0.000488,True,-1.365,-1.0073,large
+capability_limited,Capability-limited,Reference,judge_planning_coherence,LLM Judge Planning Coherence (1-5),18,3.5556,3.2222,-0.3333,-1.3038,0.209668,False,14.0,-1.3851,0.166016,False,-0.4395,-0.3073,small
+capability_limited,Capability-limited,Reference,judge_failure_explanation_quality,LLM Judge Failure Explanation (1-5),18,4.7778,4.3333,-0.4444,-2.4057,0.027806,True,11.0,-1.9137,0.055664,False,-0.7775,-0.567,medium
+capability_limited,Capability-limited,Reference,judge_overall_score,LLM Judge Overall Score (1-5),18,3.7139,3.2228,-0.4911,-3.2328,0.004889,True,20.5,-2.6291,0.008561,True,-1.0733,-0.762,large
+capability_limited,Capability-limited,Reference,processing_time_sec,Processing Time (s),18,116.596,126.8182,10.2222,2.4925,0.023304,True,22.0,2.8778,0.004005,True,0.7164,0.5875,medium
+capability_limited,Capability-limited,Reference,mean_api_latency_ms,Mean API Latency (ms),18,983.1,968.4256,-14.6744,-1.7701,0.094647,False,52.0,-1.4254,0.154045,False,-0.3018,-0.4172,small
+capability_limited,Capability-limited,Reference,total_api_tokens,Total API Tokens,18,355455.8889,406070.6667,50614.7778,2.7436,0.013854,True,25.0,2.7175,0.006577,True,0.9912,0.6467,large
+capability_limited,Capability-limited,Reference,estimated_cost_usd,Estimated API Cost (USD),18,0.1426,0.1629,0.0204,2.7423,0.013891,True,25.0,2.7175,0.006577,True,0.9908,0.6464,large
+observation_limited,Observation-limited,Reference,task_success_rate,Task Success Rate,18,0.2778,0.0556,-0.2222,-1.7195,0.103685,False,3.5,-1.2299,0.21875,False,-0.6071,-0.4053,medium
+observation_limited,Observation-limited,Reference,dag_progress_pct,DAG Completion (%),18,64.2333,62.8556,-1.3778,-0.2551,0.801684,False,41.5,-0.2533,0.800049,False,-0.0449,-0.0601,negligible
+observation_limited,Observation-limited,Reference,makespan,Makespan (s),18,42.1667,44.9444,2.7778,2.0157,0.059919,False,1.0,1.8627,0.0625,False,0.6752,0.4751,medium
+observation_limited,Observation-limited,Reference,valid_action_rate,Valid Action Rate,18,0.761,0.7435,-0.0175,-1.0376,0.313976,False,70.5,-0.6316,0.527678,False,-0.3204,-0.2446,small
+observation_limited,Observation-limited,Reference,constraint_violation_rate,Constraint Violation Rate,18,0.239,0.2564,0.0174,1.0337,0.315771,False,70.5,0.6316,0.527678,False,0.3193,0.2436,small
+observation_limited,Observation-limited,Reference,total_actions,Total Actions,18,85.7778,84.5556,-1.2222,-0.2403,0.812936,False,70.5,-0.6319,0.527482,False,-0.0811,-0.0567,negligible
+observation_limited,Observation-limited,Reference,total_movements,Total Movements,18,27.6111,29.8333,2.2222,0.6433,0.528592,False,80.5,0.1962,0.844483,False,0.2377,0.1516,small
+observation_limited,Observation-limited,Reference,idle_timesteps,Idle Timesteps (s),18,54.1667,67.6667,13.5,3.642,0.002017,True,17.5,2.9425,0.003256,True,1.0958,0.8584,large
+observation_limited,Observation-limited,Reference,resource_conflicts,Resource Conflicts,18,3.9444,3.8333,-0.1111,-0.1747,0.863378,False,39.5,-0.4009,0.688477,False,-0.0523,-0.0412,negligible
+observation_limited,Observation-limited,Reference,dependency_errors,Dependency Errors,18,10.1667,9.5,-0.6667,-0.6063,0.552344,False,56.0,-0.5958,0.551277,False,-0.2063,-0.1429,small
+observation_limited,Observation-limited,Reference,replanning_frequency,Replanning Frequency,18,11.2222,15.0,3.7778,2.9288,0.009372,True,30.0,2.4122,0.015857,True,0.7832,0.6903,medium
+observation_limited,Observation-limited,Reference,recovery_rate,Post-Failure Recovery Rate,18,1.0,1.0,0.0,0.0,1.0,False,0.0,0.0,1.0,False,0.0,0.0,negligible
+observation_limited,Observation-limited,Reference,workload_gini,Workload Gini Coefficient,18,0.1057,0.1089,0.0033,0.1411,0.889447,False,80.0,-0.2125,0.831726,False,0.0455,0.0333,negligible
+observation_limited,Observation-limited,Reference,number_of_messages,Number of Peer Messages,18,34.7222,44.1111,9.3889,2.7912,0.012535,True,25.0,2.4163,0.01568,True,0.926,0.6579,large
+observation_limited,Observation-limited,Reference,total_communication_tokens,Total Comm Tokens,18,1126.5,1334.7222,208.2222,1.9417,0.068928,False,47.0,1.651,0.09874,False,0.6607,0.4577,medium
+observation_limited,Observation-limited,Reference,average_message_length_tokens,Avg Message Length (Tokens),18,32.6878,30.3633,-2.3244,-2.3463,0.03134,True,46.0,-1.6966,0.089767,False,-0.7145,-0.553,medium
+observation_limited,Observation-limited,Reference,grounded_message_rate,Grounded Message Rate,18,0.9989,1.0,0.0011,1.0,0.331333,False,0.0,0.0,1.0,False,0.3333,0.2357,small
+observation_limited,Observation-limited,Reference,redundant_message_rate,Redundant Message Rate,18,0.0068,0.0091,0.0022,0.4377,0.667105,False,21.0,0.1128,0.910156,False,0.1502,0.1032,negligible
+observation_limited,Observation-limited,Reference,judge_relevance,LLM Judge Relevance (1-5),18,4.2222,4.2222,0.0,0.0,1.0,False,52.0,0.0,1.0,False,0.0,0.0,negligible
+observation_limited,Observation-limited,Reference,judge_clarity,LLM Judge Clarity (1-5),18,4.5,4.2222,-0.2778,-2.0513,0.055973,False,4.0,-1.5341,0.125,False,-0.5871,-0.4835,medium
+observation_limited,Observation-limited,Reference,judge_grounding,LLM Judge Grounding (1-5),18,3.5556,2.7222,-0.8333,-2.7306,0.014235,True,12.0,-2.3954,0.016602,True,-0.8582,-0.6436,large
+observation_limited,Observation-limited,Reference,judge_coordination_utility,LLM Judge Coordination Utility (1-5),18,3.2778,3.1667,-0.1111,-0.5236,0.607292,False,27.5,-0.2599,0.794922,False,-0.1725,-0.1234,negligible
+observation_limited,Observation-limited,Reference,judge_redundancy,LLM Judge Non-Redundancy (1-5),18,2.1111,1.7222,-0.3889,-1.4413,0.167671,False,12.0,-1.1316,0.257812,False,-0.515,-0.3397,medium
+observation_limited,Observation-limited,Reference,judge_planning_coherence,LLM Judge Planning Coherence (1-5),18,3.5556,3.4444,-0.1111,-0.4165,0.682258,False,22.5,-0.4505,0.652344,False,-0.1491,-0.0982,negligible
+observation_limited,Observation-limited,Reference,judge_failure_explanation_quality,LLM Judge Failure Explanation (1-5),18,4.7778,4.5,-0.2778,-1.2298,0.235514,False,13.5,-0.8444,0.398438,False,-0.439,-0.2899,small
+observation_limited,Observation-limited,Reference,judge_overall_score,LLM Judge Overall Score (1-5),18,3.7139,3.4289,-0.285,-1.7632,0.095828,False,42.0,-1.8738,0.060961,False,-0.6343,-0.4156,medium
+observation_limited,Observation-limited,Reference,processing_time_sec,Processing Time (s),18,116.596,127.2928,10.6969,2.4951,0.02318,True,35.0,2.2137,0.026848,True,0.7015,0.5881,medium
+observation_limited,Observation-limited,Reference,mean_api_latency_ms,Mean API Latency (ms),18,983.1,1005.4806,22.3806,1.5083,0.149842,False,49.0,1.5602,0.118706,False,0.3964,0.3555,small
+observation_limited,Observation-limited,Reference,total_api_tokens,Total API Tokens,18,355455.8889,405506.3889,50050.5,3.0674,0.006975,True,27.0,2.6134,0.008965,True,0.9608,0.723,large
+observation_limited,Observation-limited,Reference,estimated_cost_usd,Estimated API Cost (USD),18,0.1426,0.1627,0.0202,3.0725,0.006899,True,27.0,2.6134,0.008965,True,0.9624,0.7242,large
+communication_limited,Communication-limited,Reference,task_success_rate,Task Success Rate,18,0.2778,0.0,-0.2778,-2.557,0.020412,True,0.0,-1.8627,0.0625,False,-0.8523,-0.6027,large
+communication_limited,Communication-limited,Reference,dag_progress_pct,DAG Completion (%),18,64.2333,55.6778,-8.5556,-1.3525,0.193927,False,42.5,-1.294,0.195659,False,-0.3203,-0.3188,small
+communication_limited,Communication-limited,Reference,makespan,Makespan (s),18,42.1667,45.0,2.8333,2.0678,0.054225,False,0.0,1.8627,0.0625,False,0.6893,0.4874,medium
+communication_limited,Communication-limited,Reference,valid_action_rate,Valid Action Rate,18,0.761,0.8216,0.0606,3.5142,0.002661,True,23.5,2.6786,0.007392,True,1.2959,0.8283,large
+communication_limited,Communication-limited,Reference,constraint_violation_rate,Constraint Violation Rate,18,0.239,0.1784,-0.0606,-3.5142,0.002661,True,23.5,-2.6786,0.007392,True,-1.2959,-0.8283,large
+communication_limited,Communication-limited,Reference,total_actions,Total Actions,18,85.7778,117.2778,31.5,7.3059,1e-06,True,0.0,3.7031,0.000213,True,2.3477,1.722,large
+communication_limited,Communication-limited,Reference,total_movements,Total Movements,18,27.6111,58.0556,30.4444,11.0795,0.0,True,0.0,3.7031,0.000213,True,4.0713,2.6115,large
+communication_limited,Communication-limited,Reference,idle_timesteps,Idle Timesteps (s),18,54.1667,35.4444,-18.7222,-6.4135,6e-06,True,1.5,-3.5278,0.000419,True,-1.8403,-1.5117,large
+communication_limited,Communication-limited,Reference,resource_conflicts,Resource Conflicts,18,3.9444,2.3889,-1.5556,-2.9267,0.009414,True,16.0,-2.4908,0.012745,True,-0.9497,-0.6898,large
+communication_limited,Communication-limited,Reference,dependency_errors,Dependency Errors,18,10.1667,12.0556,1.8889,1.3125,0.206797,False,49.5,0.9325,0.351092,False,0.444,0.3094,small
+communication_limited,Communication-limited,Reference,replanning_frequency,Replanning Frequency,18,11.2222,4.5556,-6.6667,-7.2887,1e-06,True,1.0,-3.6633,0.000249,True,-2.0912,-1.718,large
+communication_limited,Communication-limited,Reference,recovery_rate,Post-Failure Recovery Rate,18,1.0,1.0,0.0,0.0,1.0,False,0.0,0.0,1.0,False,0.0,0.0,negligible
+communication_limited,Communication-limited,Reference,workload_gini,Workload Gini Coefficient,18,0.1057,0.0337,-0.0719,-6.1952,1e-05,True,1.0,-3.6582,0.000254,True,-2.0899,-1.4602,large
+communication_limited,Communication-limited,Reference,number_of_messages,Number of Peer Messages,18,34.7222,10.5,-24.2222,-13.7827,0.0,True,0.0,-3.7067,0.00021,True,-3.5486,-3.2486,large
+communication_limited,Communication-limited,Reference,total_communication_tokens,Total Comm Tokens,18,1126.5,214.0556,-912.4444,-14.1398,0.0,True,0.0,-4.4652,8e-06,True,-4.2612,-3.3328,large
+communication_limited,Communication-limited,Reference,average_message_length_tokens,Avg Message Length (Tokens),18,32.6878,20.6067,-12.0811,-11.2694,0.0,True,0.0,-4.4652,8e-06,True,-3.5119,-2.6562,large
+communication_limited,Communication-limited,Reference,grounded_message_rate,Grounded Message Rate,18,0.9989,1.0,0.0011,1.0,0.331333,False,0.0,0.0,1.0,False,0.3333,0.2357,small
+communication_limited,Communication-limited,Reference,redundant_message_rate,Redundant Message Rate,18,0.0068,0.0034,-0.0034,-0.9027,0.379275,False,3.0,-0.4888,0.625,False,-0.2373,-0.2128,small
+communication_limited,Communication-limited,Reference,judge_relevance,LLM Judge Relevance (1-5),18,4.2222,4.8889,0.6667,3.6878,0.001825,True,5.5,2.7839,0.005371,True,1.3038,0.8692,large
+communication_limited,Communication-limited,Reference,judge_clarity,LLM Judge Clarity (1-5),18,4.5,4.6667,0.1667,1.0,0.331333,False,15.0,0.6622,0.507812,False,0.3333,0.2357,small
+communication_limited,Communication-limited,Reference,judge_grounding,LLM Judge Grounding (1-5),18,3.5556,3.9444,0.3889,1.1974,0.247586,False,27.5,1.2163,0.223877,False,0.3525,0.2822,small
+communication_limited,Communication-limited,Reference,judge_coordination_utility,LLM Judge Coordination Utility (1-5),18,3.2778,3.1111,-0.1667,-0.6778,0.506998,False,36.0,-0.7079,0.479004,False,-0.2331,-0.1598,small
+communication_limited,Communication-limited,Reference,judge_redundancy,LLM Judge Non-Redundancy (1-5),18,2.1111,3.6111,1.5,4.2288,0.000565,True,17.0,3.0126,0.00259,True,1.4566,0.9967,large
+communication_limited,Communication-limited,Reference,judge_planning_coherence,LLM Judge Planning Coherence (1-5),18,3.5556,3.2222,-0.3333,-0.8997,0.38083,False,30.0,-0.6946,0.487305,False,-0.3355,-0.2121,small
+communication_limited,Communication-limited,Reference,judge_failure_explanation_quality,LLM Judge Failure Explanation (1-5),18,4.7778,4.4444,-0.3333,-1.5584,0.137562,False,5.0,-1.3662,0.171875,False,-0.5279,-0.3673,medium
+communication_limited,Communication-limited,Reference,judge_overall_score,LLM Judge Overall Score (1-5),18,3.7139,3.9833,0.2694,1.5252,0.145594,False,40.0,1.4234,0.154615,False,0.5029,0.3595,medium
+communication_limited,Communication-limited,Reference,processing_time_sec,Processing Time (s),18,116.596,123.4219,6.826,1.4895,0.154685,False,69.0,0.6823,0.495079,False,0.4701,0.3511,small
+communication_limited,Communication-limited,Reference,mean_api_latency_ms,Mean API Latency (ms),18,983.1,972.3417,-10.7583,-0.6777,0.507112,False,61.0,-1.0283,0.303795,False,-0.2148,-0.1597,small
+communication_limited,Communication-limited,Reference,total_api_tokens,Total API Tokens,18,355455.8889,304756.7778,-50699.1111,-3.228,0.00494,True,29.0,-2.5112,0.012032,True,-1.0765,-0.7609,large
+communication_limited,Communication-limited,Reference,estimated_cost_usd,Estimated API Cost (USD),18,0.1426,0.1221,-0.0205,-3.2475,0.004738,True,29.0,-2.5112,0.012032,True,-1.0829,-0.7654,large
+combined,Combined,Reference,task_success_rate,Task Success Rate,18,0.2778,0.0,-0.2778,-2.557,0.020412,True,0.0,-1.8627,0.0625,False,-0.8523,-0.6027,large
+combined,Combined,Reference,dag_progress_pct,DAG Completion (%),18,64.2333,35.7278,-28.5056,-5.4221,4.6e-05,True,1.5,-3.4162,0.000635,True,-1.0837,-1.278,large
+combined,Combined,Reference,makespan,Makespan (s),18,42.1667,45.0,2.8333,2.0678,0.054225,False,0.0,1.8627,0.0625,False,0.6893,0.4874,medium
+combined,Combined,Reference,valid_action_rate,Valid Action Rate,18,0.761,0.8583,0.0973,8.4573,0.0,True,0.0,4.4652,8e-06,True,2.2451,1.9934,large
+combined,Combined,Reference,constraint_violation_rate,Constraint Violation Rate,18,0.239,0.1417,-0.0973,-8.4573,0.0,True,0.0,-4.4652,8e-06,True,-2.2451,-1.9934,large
+combined,Combined,Reference,total_actions,Total Actions,18,85.7778,118.2778,32.5,7.984,0.0,True,0.0,4.4652,8e-06,True,2.4231,1.8818,large
+combined,Combined,Reference,total_movements,Total Movements,18,27.6111,43.3333,15.7222,5.1449,8.1e-05,True,7.0,3.3975,0.00068,True,1.609,1.2127,large
+combined,Combined,Reference,idle_timesteps,Idle Timesteps (s),18,54.1667,35.8333,-18.3333,-5.5244,3.7e-05,True,8.0,-3.3549,0.000794,True,-1.9501,-1.3021,large
+combined,Combined,Reference,resource_conflicts,Resource Conflicts,18,3.9444,1.3889,-2.5556,-5.5687,3.4e-05,True,5.5,-3.3826,0.000718,True,-1.6142,-1.3126,large
+combined,Combined,Reference,dependency_errors,Dependency Errors,18,10.1667,4.2778,-5.8889,-5.2178,7e-05,True,10.0,-3.2741,0.00106,True,-1.9562,-1.2298,large
+combined,Combined,Reference,replanning_frequency,Replanning Frequency,18,11.2222,3.8889,-7.3333,-8.0809,0.0,True,0.0,-3.7128,0.000205,True,-2.3025,-1.9047,large
+combined,Combined,Reference,recovery_rate,Post-Failure Recovery Rate,18,1.0,1.0,0.0,0.0,1.0,False,0.0,0.0,1.0,False,0.0,0.0,negligible
+combined,Combined,Reference,workload_gini,Workload Gini Coefficient,18,0.1057,0.0506,-0.0551,-4.0554,0.000822,True,12.0,-3.4631,0.000534,True,-1.4773,-0.9559,large
+combined,Combined,Reference,number_of_messages,Number of Peer Messages,18,34.7222,10.8333,-23.8889,-11.2256,0.0,True,0.0,-3.7043,0.000212,True,-3.5425,-2.6459,large
+combined,Combined,Reference,total_communication_tokens,Total Comm Tokens,18,1126.5,232.4444,-894.0556,-13.0467,0.0,True,0.0,-4.4652,8e-06,True,-4.1845,-3.0751,large
+combined,Combined,Reference,average_message_length_tokens,Avg Message Length (Tokens),18,32.6878,21.5539,-11.1339,-11.16,0.0,True,0.0,-4.4652,8e-06,True,-3.7201,-2.6304,large
+combined,Combined,Reference,grounded_message_rate,Grounded Message Rate,18,0.9989,1.0,0.0011,1.0,0.331333,False,0.0,0.0,1.0,False,0.3333,0.2357,small
+combined,Combined,Reference,redundant_message_rate,Redundant Message Rate,18,0.0068,0.0,-0.0068,-2.0788,0.053092,False,0.0,-1.5341,0.125,False,-0.6929,-0.49,medium
+combined,Combined,Reference,judge_relevance,LLM Judge Relevance (1-5),18,4.2222,4.6667,0.4444,2.4057,0.027806,True,11.0,1.9137,0.055664,False,0.7775,0.567,medium
+combined,Combined,Reference,judge_clarity,LLM Judge Clarity (1-5),18,4.5,4.6111,0.1111,0.6216,0.542463,False,22.0,0.3135,0.753906,False,0.2187,0.1465,small
+combined,Combined,Reference,judge_grounding,LLM Judge Grounding (1-5),18,3.5556,3.4444,-0.1111,-0.3007,0.767283,False,46.5,-0.3536,0.723605,False,-0.1039,-0.0709,negligible
+combined,Combined,Reference,judge_coordination_utility,LLM Judge Coordination Utility (1-5),18,3.2778,3.1111,-0.1667,-0.7656,0.454389,False,30.0,-0.5054,0.613281,False,-0.2331,-0.1805,small
+combined,Combined,Reference,judge_redundancy,LLM Judge Non-Redundancy (1-5),18,2.1111,3.4444,1.3333,4.1231,0.00071,True,8.0,2.9733,0.002946,True,1.2259,0.9718,large
+combined,Combined,Reference,judge_planning_coherence,LLM Judge Planning Coherence (1-5),18,3.5556,3.2222,-0.3333,-1.1435,0.268661,False,29.0,-1.0775,0.28125,False,-0.3845,-0.2695,small
+combined,Combined,Reference,judge_failure_explanation_quality,LLM Judge Failure Explanation (1-5),18,4.7778,4.1667,-0.6111,-2.8291,0.011573,True,3.0,-2.2662,0.023438,True,-0.9019,-0.6668,large
+combined,Combined,Reference,judge_overall_score,LLM Judge Overall Score (1-5),18,3.7139,3.8094,0.0956,0.5402,0.596092,False,63.0,0.6156,0.53818,False,0.1773,0.1273,negligible
+combined,Combined,Reference,processing_time_sec,Processing Time (s),18,116.596,127.7967,11.2007,2.6204,0.017909,True,28.0,2.562,0.010406,True,0.7639,0.6176,medium
+combined,Combined,Reference,mean_api_latency_ms,Mean API Latency (ms),18,983.1,973.9844,-9.1156,-0.6166,0.545675,False,65.0,-0.8547,0.392738,False,-0.1738,-0.1453,negligible
+combined,Combined,Reference,total_api_tokens,Total API Tokens,18,355455.8889,312720.8889,-42735.0,-2.5951,0.01887,True,35.0,-2.2137,0.026848,True,-0.9047,-0.6117,large
+combined,Combined,Reference,estimated_cost_usd,Estimated API Cost (USD),18,0.1426,0.1253,-0.0173,-2.6149,0.018112,True,35.0,-2.2137,0.026848,True,-0.9119,-0.6163,large

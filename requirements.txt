@@ -1,0 +1,12 @@
+# Core Data Validation & Serialization
+pydantic>=2.0.0
+
+# Scientific Computing & Statistical Analysis Engine (experiments.py)
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Interactive Dashboard & Visualization UI (dashboard.py, Graphs.ipynb)
+pandas>=2.0.0
+gradio>=4.0.0
+matplotlib>=3.7.0
+
